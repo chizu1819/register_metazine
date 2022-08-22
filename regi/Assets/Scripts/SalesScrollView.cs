@@ -44,6 +44,7 @@ public class SalesScrollView : MonoBehaviour
             }
            
         }
+        Debug.Log(AllPrice);
 
         allNumberT.text = AllNumber.ToString() + "個";
         allPriceT.text = "￥" + AllPrice.ToString();
